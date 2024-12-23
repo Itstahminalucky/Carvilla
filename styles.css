@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+ body{
+    padding: 0px;
+    margin: 0px;
+
+
+} 
+ .header {
+        background-color:black;
+    }
+ .menu-section{
+     display: flex;
+     justify-content: space-between;
+     color:white;
+     height: 100px;
+     align-items: center;
+ }  
+ .logo{
+     width: 20%;
+     text-transform:uppercase;
+     font-size: 22px;
+     font-weight: 900;
+ }
+  .navbar{
+     width: 60%;
+ }
+  .menu-items{
+     list-style: none;
+     display: flex;
+     justify-content: space-between;
+ }
+  .menu-items li a{
+     color:white;
+     text-transform: uppercase;
+     text-decoration:  none;
+}
+  .hero-section {
+      background-image: url("Images/welcome-hero/welcome-banner.jpg");
+      min-height: 90vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+  }
+   .overlay{
+      position: absolute;
+      z-index: 1;
+      background-color: rgba(0, 13, 255, 0.126);
+      height: 100%;
+      width: 100%;
+      content:; 
+      display: block;
+   }
+  .hero-section{
+      background-size: cover;
+    
+      
+
+  }
+
+  .hero-parent h2{
+      margin: 0;
+      color: white;
+      text-transform: uppercase;
+      font-size: 38px;
+      font-weight: 800;
+      font-family: quicksand;
+      z-index: z;
+
+
+  }
+
+  .hero-parent p{
+      color: white;
+      text-align: center;
+      font-size: 20px;
+      font-family: quicksand;
+      padding:  32px 0px;
+      line-height: 28px;
+      z-index: z;
+    
+  }
+
+  .hero-parent button{
+      background-color: #2322CF;
+      color: white;
+      padding: 10px 20px ;
+      font-size: 22px;
+      font-weight: 600;
+      font-family: quicksand;
+      border: none;
+      border-radius: 4px;
+      width: 18%;
+      margin: auto;
+      z-index: z;
+      
+
+
+  }
+
+  .hero-parent button:hover{
+      background-color: blue;
+  }
+
+  .hero-content{
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 70%;
+      margin: auto;
+  }
+
+   .hero-content p{
+      width: 60%;
+      margin: auto;
+   
+  }
+   
+  .footer-section{
+    min-height: 20vh;
+    background-color: black;
+    color:white;
+  }
+
+  .form-main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+
+  }
+  .common-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+  }
+  .common-row select{
+    width: 100px;
+    padding: 20px 30px
+    margin-bottom: 20px
+    margin-top: 16px
+    border: none
+    background-color: rgb(233,233,233)
+    color:rgb (50,50,50)
+    font-family: quicksand;
+    font-size: 18px;
+
+  }
+  .common-row label{
+    font-size: 18px;
+    color: rgb (59,59,59);
+    font-family: quicksand;
+    
+  }
+  .first-row{
+  }
+  .second-row {
+
+  }
+  
+  .form-section{
+    position:absolute
+    left: 17%
+    top: 8%
+    z-index: 10;
+    margin-left:  -180px;
+    bow-shadow: a404c4c06  0px 0px 10px 5px;
+    
+  }
+  .form-div{
+    height: 300px;
+    background-color: antiquewhite;
+  }
+  .form{
+    padding: 30px;
+  }
+  .search-button{
+    text-align: center;
+  }
+  .search-button button {
+    background-color: rgb(0,85,255);
+    color: white;
+    padding: 16px 26px;
+    font-size: 22px;
+    border: none;
+    border-radius: 4px;
+  }
